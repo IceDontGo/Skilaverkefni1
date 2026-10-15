@@ -1,0 +1,57 @@
+* {
+    box-sizing:border-box;
+    box-shadow: inset;
+}
+
+body {
+    background-color: darkmagenta;
+    color: white;
+    font-family: "merriweather";
+}
+
+nav {
+    border: solid;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+section {
+    border-style: hidden;
+    width: 900;
+    border-radius: 10px;
+    margin: 10 px;
+    padding: 10 px;
+}
+
+img {
+    width: 300px; 
+    margin: 10px;
+    padding:5px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.ska {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.kort {
+  background-color: rgb(161, 101, 161);
+  border-style: hidden;
+  padding: 10px 24px;
+  border-radius: 16px;
+  margin: 10px;
+}
