@@ -3,14 +3,48 @@
     box-shadow: inset;
 }
 
+/*
+margin top,left, right, bottom, haft viljandi 0 
+til að hafa ekkert bil í header og footer,
+einungis hugsað út frá útliti síðu.
+Þegar þetta er skrifað hafði mér ekki tekist
+að losna við smá rönd undir footer.
+*/
+
 body {
     background-color: darkmagenta;
     color: white;
     font-family: "nunito";
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+  text-align: center;
+}
+nav a:hover {
+  font-weight: bold;
+  color: darkblue;
+  margin-top: 0;
 }
 
 nav {
-    border: solid;
+    text-align: center;
+    margin-top: 0;
+    padding: 40px;
+}
+
+header {
+  background-color: darkviolet;
+  padding: 40ps;
+  border-bottom: 3px solid violet;
+  margin-top: 0;
 }
 
 main {
@@ -38,7 +72,12 @@ a {
     text-decoration: none;
 }
 
-p, h1, h2 {
+h1 {
+    margin-top: 0;
+    text-align: right;
+}
+
+p, h2 {
     margin: 5px;
     padding: 5px;
 }
@@ -46,6 +85,7 @@ p, h1, h2 {
 .ska {
     font-style: italic;
     margin-top: 0;
+    color:antiquewhite;
 }
 
 .kort {
@@ -54,4 +94,12 @@ p, h1, h2 {
   padding: 10px 24px;
   border-radius: 16px;
   margin: 10px;
+}
+
+footer {
+      background-color: darkviolet;
+  padding: 40ps;
+  border-top: 3px solid violet;
+  margin-bottom: 0;
+  text-align: center;
 }
