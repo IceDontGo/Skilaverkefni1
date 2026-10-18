@@ -3,6 +3,9 @@
   box-shadow: inset;
 }
 
+.container {
+  display: flex;
+}
 /*
 margin top,left, right, bottom, haft viljandi 0 
 til að hafa ekkert bil í header og footer,
