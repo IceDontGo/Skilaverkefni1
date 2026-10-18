@@ -66,8 +66,12 @@ img {
   margin-bottom: 0;
 }
 
+.aftur-upp,
 a {
+  color: white;
   text-decoration: none;
+  margin-right: 16px;
+  text-align: right;
 }
 
 h1 {
@@ -100,5 +104,5 @@ footer {
   padding: 40ps;
   border-top: 3px solid violet;
   margin-bottom: 0;
-  text-align: center;
+  text-align: right;
 }
