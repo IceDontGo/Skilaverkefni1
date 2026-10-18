@@ -106,3 +106,18 @@ footer {
   margin-bottom: 0;
   text-align: right;
 }
+/*
+þurfti að googla hvernig ætti að festa footerinn á botninn á sub-síðunum, reyndi með grid en tókst ekki.
+*/
+
+.hasa {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+a:hover {
+  font-weight: bold;
+  color: darkblue;
+}

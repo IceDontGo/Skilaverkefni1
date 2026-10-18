@@ -15,28 +15,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="parent">
-      <div class="div1">
-        <header>
-          <nav>
-            <a href="index.html">Aftur heim</a>
-            <a href="random.html">Hafa samband</a>
-          </nav>
-        </header>
-      </div>
+    <header>
+      <nav>
+        <a href="index.html">Aftur heim</a>
+        <a href="random.html">Hvað skildi vera hér? Ekki „Um mig“</a>
+      </nav>
+    </header>
 
-      <div class="div2">
-        <p>
-          Undir venjulegum kringumstæðum væri þetta „um mig“-síða. En þar sem
-          forsíðan er nú þegar um mig, þá yrði það full mikið af því góða.
-        </p>
-      </div>
+    <section class="kort">
+      <p>Viltu hafa samband? Smelltu þá hér að neðan.</p>
 
-      <div class="div3">
-        <footer id="hasa">
-          <p>&copy; 2026 Sverrir Friðriksson</p>
-        </footer>
-      </div>
-    </div>
+      <!--Ekki alveg klár á þessum form kafla, hvort eigi að vera hægt að senda gögnin eitthvert-->
+      <form action="" method="post">
+        <label for="nafn">nafn</label>
+        <input id="name" type="text" />
+        <textarea name="athugasemdir" id="athugasemdir">
+Skrifið athugasemdir hér</textarea
+        >
+        <button type="submit">Senda inn</button>
+      </form>
+      <br />
+      <p>Eða! Senda póst í staðinn</p>
+
+      <a href="mailto:sf6@nemandi.ntv.is">Senda tölvupóst</a>
+    </section>
+
+    <footer class="hasa">
+      <p>&copy; 2026 Sverrir Friðriksson</p>
+      <p>
+        <a href="https://www.instagram.com/sigurdrifa/" target="_blank"
+          >Instagram síða</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
