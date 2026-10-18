@@ -66,6 +66,12 @@ img {
   margin-bottom: 0;
 }
 
+.ex {
+  width: 500px;
+  margin: 10px;
+  padding: 5px;
+}
+
 .aftur-upp,
 a {
   color: white;
@@ -120,4 +126,9 @@ footer {
 a:hover {
   font-weight: bold;
   color: darkblue;
+}
+
+h3 {
+  font-style: italic;
+  color: antiquewhite;
 }
